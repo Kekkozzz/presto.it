@@ -1,0 +1,1202 @@
+[
+    {
+        "id": 4,
+        "nome": "MacBook Air M2",
+        "categoria": "computer",
+        "brand": "Apple",
+        "prezzo": 999,
+        "descrizione": "Notebook leggero con chip M2 e display Retina."
+    },
+    {
+        "id": 1,
+        "nome": "iPhone 13",
+        "categoria": "smartphone",
+        "brand": "Apple",
+        "prezzo": 799,
+        "descrizione": "Smartphone con chip A15 e fotocamera avanzata."
+    },
+    {
+        "id": 2,
+        "nome": "Galaxy Watch 4",
+        "categoria": "smartwatch",
+        "brand": "Samsung",
+        "prezzo": 249,
+        "descrizione": "Smartwatch con monitoraggio avanzato della salute."
+    },
+    {
+        "id": 3,
+        "nome": "PlayStation 5",
+        "categoria": "console",
+        "brand": "Sony",
+        "prezzo": 499,
+        "descrizione": "Console di nuova generazione con grafica 4K."
+    },
+    {
+        "id": 5,
+        "nome": "Xbox Series X",
+        "categoria": "console",
+        "brand": "Microsoft",
+        "prezzo": 499,
+        "descrizione": "Console potente con supporto per giochi 8K."
+    },
+    {
+        "id": 6,
+        "nome": "Galaxy S21",
+        "categoria": "smartphone",
+        "brand": "Samsung",
+        "prezzo": 699,
+        "descrizione": "Smartphone con display AMOLED e fotocamera tripla."
+    },
+    {
+        "id": 7,
+        "nome": "Apple Watch Series 7",
+        "categoria": "smartwatch",
+        "brand": "Apple",
+        "prezzo": 399,
+        "descrizione": "Smartwatch con display sempre attivo e ECG."
+    },
+    {
+        "id": 8,
+        "nome": "Surface Laptop 4",
+        "categoria": "computer",
+        "brand": "Microsoft",
+        "prezzo": 1099,
+        "descrizione": "Laptop elegante con touchscreen e lunga autonomia."
+    },
+    {
+        "id": 9,
+        "nome": "Nintendo Switch",
+        "categoria": "console",
+        "brand": "Nintendo",
+        "prezzo": 299,
+        "descrizione": "Console ibrida portatile con giochi esclusivi."
+    },
+    {
+        "id": 10,
+        "nome": "Pixel 6",
+        "categoria": "smartphone",
+        "brand": "Google",
+        "prezzo": 599,
+        "descrizione": "Smartphone con fotocamera avanzata e AI integrata."
+    },
+    {
+        "id": 11,
+        "nome": "Garmin Venu 2",
+        "categoria": "smartwatch",
+        "brand": "Garmin",
+        "prezzo": 349,
+        "descrizione": "Smartwatch con GPS e monitoraggio della salute."
+    },
+    {
+        "id": 12,
+        "nome": "Lenovo ThinkPad X1",
+        "categoria": "computer",
+        "brand": "Lenovo",
+        "prezzo": 1299,
+        "descrizione": "Notebook business con sicurezza avanzata."
+    },
+    {
+        "id": 13,
+        "nome": "Razer Blade 15",
+        "categoria": "computer",
+        "brand": "Razer",
+        "prezzo": 1799,
+        "descrizione": "Laptop gaming con GPU potente e display 144Hz."
+    },
+    {
+        "id": 14,
+        "nome": "Fitbit Versa 3",
+        "categoria": "smartwatch",
+        "brand": "Fitbit",
+        "prezzo": 229,
+        "descrizione": "Smartwatch con monitoraggio attività e GPS integrato."
+    },
+    {
+        "id": 15,
+        "nome": "Huawei MateBook X Pro",
+        "categoria": "computer",
+        "brand": "Huawei",
+        "prezzo": 1499,
+        "descrizione": "Laptop sottile con display FullView e prestazioni elevate."
+    },
+    {
+        "id": 16,
+        "nome": "Xiaomi Mi 11",
+        "categoria": "smartphone",
+        "brand": "Xiaomi",
+        "prezzo": 649,
+        "descrizione": "Smartphone con display AMOLED e fotocamera 108MP."
+    },
+    {
+        "id": 17,
+        "nome": "Asus ROG Phone 5",
+        "categoria": "smartphone",
+        "brand": "Asus",
+        "prezzo": 899,
+        "descrizione": "Smartphone gaming con processore potente e raffreddamento avanzato."
+    },
+    {
+        "id": 18,
+        "nome": "Oculus Quest 2",
+        "categoria": "console",
+        "brand": "Oculus",
+        "prezzo": 299,
+        "descrizione": "Visore VR standalone con giochi immersivi."
+    },
+    {
+        "id": 19,
+        "nome": "HP Spectre x360",
+        "categoria": "computer",
+        "brand": "HP",
+        "prezzo": 1399,
+        "descrizione": "Convertible premium con design elegante."
+    },
+    {
+        "id": 20,
+        "nome": "Moto G Power",
+        "categoria": "smartphone",
+        "brand": "Motorola",
+        "prezzo": 199,
+        "descrizione": "Smartphone con batteria a lunga durata."
+    },
+    {
+        "id": 21,
+        "nome": "Realme GT",
+        "categoria": "smartphone",
+        "brand": "Realme",
+        "prezzo": 449,
+        "descrizione": "Smartphone con Snapdragon 888 e ricarica rapida."
+    },
+    {
+        "id": 22,
+        "nome": "Dell XPS 13",
+        "categoria": "computer",
+        "brand": "Dell",
+        "prezzo": 1199,
+        "descrizione": "Ultrabook con display InfinityEdge e prestazioni elevate."
+    },
+    {
+        "id": 23,
+        "nome": "Garmin Forerunner 945",
+        "categoria": "smartwatch",
+        "brand": "Garmin",
+        "prezzo": 599,
+        "descrizione": "Smartwatch per atleti con GPS e musica."
+    },
+    {
+        "id": 24,
+        "nome": "Acer Predator Helios 300",
+        "categoria": "computer",
+        "brand": "Acer",
+        "prezzo": 1299,
+        "descrizione": "Laptop gaming con display 144Hz e raffreddamento avanzato."
+    },
+    {
+        "id": 25,
+        "nome": "Sony Xperia 5 III",
+        "categoria": "smartphone",
+        "brand": "Sony",
+        "prezzo": 899,
+        "descrizione": "Smartphone con display OLED e fotocamera professionale."
+    },
+    {
+        "id": 26,
+        "nome": "Samsung Galaxy Tab S7",
+        "categoria": "computer",
+        "brand": "Samsung",
+        "prezzo": 649,
+        "descrizione": "Tablet con display 120Hz e S Pen inclusa."
+    },
+    {
+        "id": 27,
+        "nome": "Alienware m15 R6",
+        "categoria": "computer",
+        "brand": "Alienware",
+        "prezzo": 1899,
+        "descrizione": "Laptop gaming con RTX 3080 e display QHD."
+    },
+    {
+        "id": 28,
+        "nome": "Google Pixel 5a",
+        "categoria": "smartphone",
+        "brand": "Google",
+        "prezzo": 449,
+        "descrizione": "Smartphone con fotocamera eccellente e aggiornamenti software garantiti."
+    },
+    {
+        "id": 29,
+        "nome": "Apple Mac Mini M1",
+        "categoria": "computer",
+        "brand": "Apple",
+        "prezzo": 699,
+        "descrizione": "Mini PC compatto con chip M1 e prestazioni potenti."
+    },
+    {
+        "id": 30,
+        "nome": "OnePlus 9",
+        "categoria": "smartphone",
+        "brand": "OnePlus",
+        "prezzo": 729,
+        "descrizione": "Smartphone con display Fluid AMOLED e fotocamera Hasselblad."
+    },
+    {
+        "id": 31,
+        "nome": "Sony PlayStation 4 Pro",
+        "categoria": "console",
+        "brand": "Sony",
+        "prezzo": 399,
+        "descrizione": "Console con supporto per giochi 4K e HDR."
+    },
+    {
+        "id": 32,
+        "nome": "Microsoft Surface Pro 7",
+        "categoria": "computer",
+        "brand": "Microsoft",
+        "prezzo": 749,
+        "descrizione": "Tablet 2-in-1 con prestazioni potenti."
+    },
+    {
+        "id": 33,
+        "nome": "Samsung Galaxy Z Fold 3",
+        "categoria": "smartphone",
+        "brand": "Samsung",
+        "prezzo": 1799,
+        "descrizione": "Smartphone pieghevole con display grande e multifunzione."
+    },
+    {
+        "id": 34,
+        "nome": "Huawei Watch GT 3",
+        "categoria": "smartwatch",
+        "brand": "Huawei",
+        "prezzo": 249,
+        "descrizione": "Smartwatch con autonomia di lunga durata e monitoraggio della salute."
+    },
+    {
+        "id": 35,
+        "nome": "Oculus Rift S",
+        "categoria": "console",
+        "brand": "Oculus",
+        "prezzo": 399,
+        "descrizione": "Visore VR con risoluzione alta e tracciamento preciso."
+    },
+    {
+        "id": 36,
+        "nome": "Acer Swift X",
+        "categoria": "computer",
+        "brand": "Acer",
+        "prezzo": 1199,
+        "descrizione": "Laptop leggero con GPU dedicata e display 16:10."
+    },
+    {
+        "id": 37,
+        "nome": "HP Envy x360",
+        "categoria": "computer",
+        "brand": "HP",
+        "prezzo": 949,
+        "descrizione": "Laptop convertibile con prestazioni equilibrate e design elegante."
+    },
+    {
+        "id": 38,
+        "nome": "Apple Watch SE",
+        "categoria": "smartwatch",
+        "brand": "Apple",
+        "prezzo": 279,
+        "descrizione": "Smartwatch con monitoraggio fitness e design elegante."
+    },
+    {
+        "id": 39,
+        "nome": "Xiaomi Mi Band 6",
+        "categoria": "smartwatch",
+        "brand": "Xiaomi",
+        "prezzo": 49,
+        "descrizione": "Fitness tracker con display AMOLED e monitoraggio del sonno."
+    },
+    {
+        "id": 40,
+        "nome": "Sony Xperia 1 III",
+        "categoria": "smartphone",
+        "brand": "Sony",
+        "prezzo": 1199,
+        "descrizione": "Smartphone con display 4K e fotocamera professionale."
+    },
+    {
+        "id": 41,
+        "nome": "Lenovo Yoga 9i",
+        "categoria": "computer",
+        "brand": "Lenovo",
+        "prezzo": 1399,
+        "descrizione": "Laptop convertibile con Dolby Vision e prestazioni elevate."
+    },
+    {
+        "id": 42,
+        "nome": "Samsung Galaxy Note 20",
+        "categoria": "smartphone",
+        "brand": "Samsung",
+        "prezzo": 949,
+        "descrizione": "Smartphone con S Pen e display AMOLED."
+    },
+    {
+        "id": 43,
+        "nome": "Google Pixel Watch",
+        "categoria": "smartwatch",
+        "brand": "Google",
+        "prezzo": 349,
+        "descrizione": "Smartwatch con Wear OS e integrazione Google."
+    },
+    {
+        "id": 44,
+        "nome": "Asus ZenBook 14",
+        "categoria": "computer",
+        "brand": "Asus",
+        "prezzo": 899,
+        "descrizione": "Laptop ultraleggero con ottime prestazioni e lunga autonomia."
+    },
+    {
+        "id": 45,
+        "nome": "Razer Naga X",
+        "categoria": "computer",
+        "brand": "Razer",
+        "prezzo": 79,
+        "descrizione": "Mouse da gaming con 16 pulsanti programmabili."
+    },
+    {
+        "id": 46,
+        "nome": "Corsair K95 RGB Platinum",
+        "categoria": "computer",
+        "brand": "Corsair",
+        "prezzo": 199,
+        "descrizione": "Tastiera meccanica con retroilluminazione RGB e macro programmabili."
+    },
+    {
+        "id": 47,
+        "nome": "Microsoft Xbox Controller",
+        "categoria": "console",
+        "brand": "Microsoft",
+        "prezzo": 59,
+        "descrizione": "Controller ergonomico con supporto wireless."
+    },
+    {
+        "id": 48,
+        "nome": "Samsung Galaxy Buds 2",
+        "categoria": "smartwatch",
+        "brand": "Samsung",
+        "prezzo": 149,
+        "descrizione": "Auricolari true wireless con cancellazione attiva del rumore."
+    },
+    {
+        "id": 49,
+        "nome": "HP Omen 17",
+        "categoria": "computer",
+        "brand": "HP",
+        "prezzo": 1799,
+        "descrizione": "Laptop gaming con display 17.3 e GPU RTX 3070."
+    },
+    {
+        "id": 50,
+        "nome": "Dell Inspiron 15",
+        "categoria": "computer",
+        "brand": "Dell",
+        "prezzo": 749,
+        "descrizione": "Laptop versatile con display Full HD e buone prestazioni."
+    },
+    {
+        "id": 51,
+        "nome": "Apple iPad Pro",
+        "categoria": "computer",
+        "brand": "Apple",
+        "prezzo": 799,
+        "descrizione": "Tablet potente con chip M1 e display Liquid Retina."
+    },
+    {
+        "id": 52,
+        "nome": "Alienware Aurora R13",
+        "categoria": "computer",
+        "brand": "Alienware",
+        "prezzo": 2099,
+        "descrizione": "PC gaming con prestazioni di fascia alta e design futuristico."
+    },
+    {
+        "id": 53,
+        "nome": "Lenovo Legion 5",
+        "categoria": "computer",
+        "brand": "Lenovo",
+        "prezzo": 1299,
+        "descrizione": "Laptop gaming con AMD Ryzen e display 165Hz."
+    },
+    {
+        "id": 54,
+        "nome": "Asus ROG Strix Scar 17",
+        "categoria": "computer",
+        "brand": "Asus",
+        "prezzo": 2299,
+        "descrizione": "Laptop gaming con display 17 e RTX 3080."
+    },
+    {
+        "id": 55,
+        "nome": "Jabra Elite 85t",
+        "categoria": "smartwatch",
+        "brand": "Jabra",
+        "prezzo": 229,
+        "descrizione": "Auricolari true wireless con cancellazione attiva del rumore."
+    },
+    {
+        "id": 56,
+        "nome": "Huawei Mate 40 Pro",
+        "categoria": "smartphone",
+        "brand": "Huawei",
+        "prezzo": 1099,
+        "descrizione": "Smartphone con fotocamera Leica e display curvo."
+    },
+    {
+        "id": 57,
+        "nome": "NVIDIA Shield TV",
+        "categoria": "console",
+        "brand": "NVIDIA",
+        "prezzo": 149,
+        "descrizione": "Media player con streaming 4K e gaming."
+    },
+    {
+        "id": 58,
+        "nome": "Sony WH-1000XM4",
+        "categoria": "smartwatch",
+        "brand": "Sony",
+        "prezzo": 349,
+        "descrizione": "Cuffie wireless con cancellazione attiva del rumore."
+    },
+    {
+        "id": 59,
+        "nome": "Apple AirPods Pro",
+        "categoria": "smartwatch",
+        "brand": "Apple",
+        "prezzo": 249,
+        "descrizione": "Auricolari true wireless con cancellazione attiva del rumore."
+    },
+    {
+        "id": 60,
+        "nome": "Garmin Fenix 7",
+        "categoria": "smartwatch",
+        "brand": "Garmin",
+        "prezzo": 699,
+        "descrizione": "Smartwatch con GPS avanzato e batteria lunga durata."
+    },
+    {
+        "id": 61,
+        "nome": "Microsoft Surface Book 3",
+        "categoria": "computer",
+        "brand": "Microsoft",
+        "prezzo": 1599,
+        "descrizione": "Laptop convertibile con prestazioni eccellenti e display staccabile."
+    },
+    {
+        "id": 62,
+        "nome": "HP Pavilion Gaming",
+        "categoria": "computer",
+        "brand": "HP",
+        "prezzo": 999,
+        "descrizione": "Laptop gaming con display Full HD e GPU dedicata."
+    },
+    {
+        "id": 63,
+        "nome": "Acer Nitro 5",
+        "categoria": "computer",
+        "brand": "Acer",
+        "prezzo": 899,
+        "descrizione": "Laptop gaming con display 144Hz e raffreddamento avanzato."
+    },
+    {
+        "id": 64,
+        "nome": "Samsung Galaxy A52",
+        "categoria": "smartphone",
+        "brand": "Samsung",
+        "prezzo": 449,
+        "descrizione": "Smartphone con display Super AMOLED e fotocamera quadrupla."
+    },
+    {
+        "id": 65,
+        "nome": "Sony WH-H910N",
+        "categoria": "smartwatch",
+        "brand": "Sony",
+        "prezzo": 299,
+        "descrizione": "Cuffie wireless con cancellazione del rumore e audio premium."
+    },
+    {
+        "id": 66,
+        "nome": "Apple MacBook Pro 16",
+        "categoria": "computer",
+        "brand": "Apple",
+        "prezzo": 2399,
+        "descrizione": "Laptop potente con display Retina e chip M1 Pro."
+    },
+    {
+        "id": 67,
+        "nome": "Xiaomi Poco X3 Pro",
+        "categoria": "smartphone",
+        "brand": "Xiaomi",
+        "prezzo": 349,
+        "descrizione": "Smartphone con Snapdragon 860 e display 120Hz."
+    },
+    {
+        "id": 68,
+        "nome": "Huawei P50 Pro",
+        "categoria": "smartphone",
+        "brand": "Huawei",
+        "prezzo": 999,
+        "descrizione": "Smartphone con fotocamera perimetrale e display OLED."
+    },
+    {
+        "id": 69,
+        "nome": "Dell G15",
+        "categoria": "computer",
+        "brand": "Dell",
+        "prezzo": 1099,
+        "descrizione": "Laptop gaming con GPU RTX 3050 e display Full HD."
+    },
+    {
+        "id": 70,
+        "nome": "Microsoft Surface Go 3",
+        "categoria": "computer",
+        "brand": "Microsoft",
+        "prezzo": 399,
+        "descrizione": "Tablet con Windows 11 e prestazioni sufficienti per uso quotidiano."
+    },
+    {
+        "id": 71,
+        "nome": "Razer DeathAdder V2",
+        "categoria": "computer",
+        "brand": "Razer",
+        "prezzo": 79,
+        "descrizione": "Mouse da gaming ergonomico con sensore ottico avanzato."
+    },
+    {
+        "id": 72,
+        "nome": "Apple iPad Mini",
+        "categoria": "computer",
+        "brand": "Apple",
+        "prezzo": 499,
+        "descrizione": "Tablet compatto con chip A15 e display Liquid Retina."
+    },
+    {
+        "id": 73,
+        "nome": "Samsung Galaxy Z Flip 4",
+        "categoria": "smartphone",
+        "brand": "Samsung",
+        "prezzo": 999,
+        "descrizione": "Smartphone pieghevole con design compatto e display AMOLED."
+    },
+    {
+        "id": 74,
+        "nome": "Oculus Quest Pro",
+        "categoria": "console",
+        "brand": "Oculus",
+        "prezzo": 999,
+        "descrizione": "Visore VR avanzato con miglioramenti nel tracciamento e display."
+    },
+    {
+        "id": 75,
+        "nome": "Sony A7 IV",
+        "categoria": "computer",
+        "brand": "Sony",
+        "prezzo": 2499,
+        "descrizione": "Fotocamera mirrorless con sensore full-frame e video 4K."
+    },
+    {
+        "id": 76,
+        "nome": "Lenovo IdeaPad 3",
+        "categoria": "computer",
+        "brand": "Lenovo",
+        "prezzo": 699,
+        "descrizione": "Laptop economico con buone prestazioni per uso quotidiano."
+    },
+    {
+        "id": 77,
+        "nome": "Xiaomi Mi Mix 4",
+        "categoria": "smartphone",
+        "brand": "Xiaomi",
+        "prezzo": 699,
+        "descrizione": "Smartphone con fotocamera sotto il display e potente hardware."
+    },
+    {
+        "id": 78,
+        "nome": "Huawei FreeBuds Pro",
+        "categoria": "smartwatch",
+        "brand": "Huawei",
+        "prezzo": 199,
+        "descrizione": "Auricolari true wireless con cancellazione attiva del rumore."
+    },
+    {
+        "id": 79,
+        "nome": "Dell Alienware AW2521H",
+        "categoria": "computer",
+        "brand": "Dell",
+        "prezzo": 699,
+        "descrizione": "Monitor gaming 360Hz con NVIDIA G-SYNC."
+    },
+    {
+        "id": 80,
+        "nome": "Asus VivoBook 15",
+        "categoria": "computer",
+        "brand": "Asus",
+        "prezzo": 649,
+        "descrizione": "Laptop accessibile con display NanoEdge e buona prestazione."
+    },
+    {
+        "id": 81,
+        "nome": "JBL Charge 5",
+        "categoria": "smartwatch",
+        "brand": "JBL",
+        "prezzo": 149,
+        "descrizione": "Altoparlante Bluetooth resistente all'acqua con lunga durata batteria."
+    },
+    {
+        "id": 82,
+        "nome": "Google Nest Hub",
+        "categoria": "computer",
+        "brand": "Google",
+        "prezzo": 99,
+        "descrizione": "Display intelligente con assistente vocale integrato."
+    },
+    {
+        "id": 83,
+        "nome": "Samsung Odyssey G7",
+        "categoria": "computer",
+        "brand": "Samsung",
+        "prezzo": 649,
+        "descrizione": "Monitor curvo gaming con 240Hz e Quantum Dot."
+    },
+    {
+        "id": 84,
+        "nome": "Apple MacBook Pro 14",
+        "categoria": "computer",
+        "brand": "Apple",
+        "prezzo": 1999,
+        "descrizione": "Laptop potente con display ProMotion e chip M1 Pro."
+    },
+    {
+        "id": 85,
+        "nome": "MSI GE76 Raider",
+        "categoria": "computer",
+        "brand": "MSI",
+        "prezzo": 2199,
+        "descrizione": "Laptop gaming con display 17.3 e RTX 3080."
+    },
+    {
+        "id": 86,
+        "nome": "Asus ROG Zephyrus G14",
+        "categoria": "computer",
+        "brand": "Asus",
+        "prezzo": 1499,
+        "descrizione": "Laptop gaming compatto con AMD Ryzen e GPU RTX."
+    },
+    {
+        "id": 87,
+        "nome": "Huawei Mate 50 Pro",
+        "categoria": "smartphone",
+        "brand": "Huawei",
+        "prezzo": 1099,
+        "descrizione": "Smartphone con potente processore e display OLED."
+    },
+    {
+        "id": 88,
+        "nome": "Acer Aspire 5",
+        "categoria": "computer",
+        "brand": "Acer",
+        "prezzo": 549,
+        "descrizione": "Laptop economico con display Full HD e buone prestazioni."
+    },
+    {
+        "id": 89,
+        "nome": "Apple iPhone SE (2022)",
+        "categoria": "smartphone",
+        "brand": "Apple",
+        "prezzo": 429,
+        "descrizione": "Smartphone compatto con chip A15 e fotocamera migliorata."
+    },
+    {
+        "id": 90,
+        "nome": "Logitech MX Master 3",
+        "categoria": "computer",
+        "brand": "Logitech",
+        "prezzo": 99,
+        "descrizione": "Mouse ergonomico con supporto per multitasking e precisione."
+    },
+    {
+        "id": 91,
+        "nome": "Samsung Galaxy S22 Ultra",
+        "categoria": "smartphone",
+        "brand": "Samsung",
+        "prezzo": 1199,
+        "descrizione": "Smartphone con S Pen integrata e fotocamera avanzata."
+    },
+    {
+        "id": 92,
+        "nome": "Dell UltraSharp U2720Q",
+        "categoria": "computer",
+        "brand": "Dell",
+        "prezzo": 549,
+        "descrizione": "Monitor 4K con alta precisione del colore e design elegante."
+    },
+    {
+        "id": 93,
+        "nome": "Asus TUF Gaming A15",
+        "categoria": "computer",
+        "brand": "Asus",
+        "prezzo": 1199,
+        "descrizione": "Laptop gaming robusto con GPU RTX e display 144Hz."
+    },
+    {
+        "id": 94,
+        "nome": "Google Chromecast with Google TV",
+        "categoria": "computer",
+        "brand": "Google",
+        "prezzo": 49,
+        "descrizione": "Dispositivo di streaming con supporto per 4K e HDR."
+    },
+    {
+        "id": 95,
+        "nome": "Apple AirPods Max",
+        "categoria": "smartwatch",
+        "brand": "Apple",
+        "prezzo": 549,
+        "descrizione": "Cuffie wireless con qualità audio premium e cancellazione attiva."
+    },
+    {
+        "id": 96,
+        "nome": "MSI Creator Z16",
+        "categoria": "computer",
+        "brand": "MSI",
+        "prezzo": 1699,
+        "descrizione": "Laptop per creatori con display QHD e prestazioni elevate."
+    },
+    {
+        "id": 97,
+        "nome": "Asus ROG Flow Z13",
+        "categoria": "computer",
+        "brand": "Asus",
+        "prezzo": 1299,
+        "descrizione": "Tablet gaming con prestazioni potenti e display 120Hz."
+    },
+    {
+        "id": 98,
+        "nome": "Apple HomePod Mini",
+        "categoria": "computer",
+        "brand": "Apple",
+        "prezzo": 99,
+        "descrizione": "Altoparlante smart compatto con qualità audio eccellente."
+    },
+    {
+        "id": 99,
+        "nome": "Google Pixel 7 Pro",
+        "categoria": "smartphone",
+        "brand": "Google",
+        "prezzo": 899,
+        "descrizione": "Smartphone con fotocamera avanzata e display OLED."
+    },
+    {
+        "id": 100,
+        "nome": "Asus ZenBook 15",
+        "categoria": "computer",
+        "brand": "Asus",
+        "prezzo": 1199,
+        "descrizione": "Laptop elegante con display NanoEdge e prestazioni elevate."
+    },
+    {
+        "id": 101,
+        "nome": "Samsung Galaxy Tab S8",
+        "categoria": "computer",
+        "brand": "Samsung",
+        "prezzo": 699,
+        "descrizione": "Tablet Android con display AMOLED e S Pen inclusa."
+    },
+    {
+        "id": 102,
+        "nome": "Logitech G Pro X",
+        "categoria": "computer",
+        "brand": "Logitech",
+        "prezzo": 129,
+        "descrizione": "Tastiera meccanica compatta con switch personalizzabili."
+    },
+    {
+        "id": 103,
+        "nome": "Huawei MatePad Pro",
+        "categoria": "computer",
+        "brand": "Huawei",
+        "prezzo": 799,
+        "descrizione": "Tablet premium con display 2K e prestazioni eccellenti."
+    },
+    {
+        "id": 104,
+        "nome": "Sony PlayStation 5",
+        "categoria": "console",
+        "brand": "Sony",
+        "prezzo": 499,
+        "descrizione": "Console di gioco con grafica 4K e prestazioni elevate."
+    },
+    {
+        "id": 105,
+        "nome": "Microsoft Surface Pro 9",
+        "categoria": "computer",
+        "brand": "Microsoft",
+        "prezzo": 1399,
+        "descrizione": "Tablet 2-in-1 con prestazioni superiori e display PixelSense."
+    },
+    {
+        "id": 106,
+        "nome": "Samsung Odyssey Neo G9",
+        "categoria": "computer",
+        "brand": "Samsung",
+        "prezzo": 1299,
+        "descrizione": "Monitor curvo ultrawide con risoluzione 5120x1440."
+    },
+    {
+        "id": 107,
+        "nome": "Apple AirPods (3rd generation)",
+        "categoria": "smartwatch",
+        "brand": "Apple",
+        "prezzo": 199,
+        "descrizione": "Auricolari wireless con audio spaziale e resistenza all'acqua."
+    },
+    {
+        "id": 108,
+        "nome": "NVIDIA GeForce RTX 4090",
+        "categoria": "computer",
+        "brand": "NVIDIA",
+        "prezzo": 1599,
+        "descrizione": "Scheda grafica di alta gamma con prestazioni estreme."
+    },
+    {
+        "id": 109,
+        "nome": "Google Pixel 6a",
+        "categoria": "smartphone",
+        "brand": "Google",
+        "prezzo": 449,
+        "descrizione": "Smartphone con fotocamera eccellente e prestazioni bilanciate."
+    },
+    {
+        "id": 110,
+        "nome": "Sony WH-1000XM5",
+        "categoria": "smartwatch",
+        "brand": "Sony",
+        "prezzo": 399,
+        "descrizione": "Cuffie premium con qualità audio superiore e ANC."
+    },
+    {
+        "id": 111,
+        "nome": "Acer Predator Helios 300",
+        "categoria": "computer",
+        "brand": "Acer",
+        "prezzo": 1399,
+        "descrizione": "Laptop gaming con display 144Hz e GPU RTX 3060."
+    },
+    {
+        "id": 112,
+        "nome": "Apple Magic Mouse 2",
+        "categoria": "computer",
+        "brand": "Apple",
+        "prezzo": 79,
+        "descrizione": "Mouse wireless con design elegante e ricaricabile."
+    },
+    {
+        "id": 113,
+        "nome": "Razer BlackWidow V3",
+        "categoria": "computer",
+        "brand": "Razer",
+        "prezzo": 129,
+        "descrizione": "Tastiera meccanica con switch verdi e retroilluminazione RGB."
+    },
+    {
+        "id": 114,
+        "nome": "Samsung Galaxy A72",
+        "categoria": "smartphone",
+        "brand": "Samsung",
+        "prezzo": 449,
+        "descrizione": "Smartphone con display Super AMOLED e fotocamera versatile."
+    },
+    {
+        "id": 115,
+        "nome": "Sony PlayStation VR2",
+        "categoria": "console",
+        "brand": "Sony",
+        "prezzo": 599,
+        "descrizione": "Visore VR avanzato per PlayStation 5 con tracciamento migliorato."
+    },
+    {
+        "id": 116,
+        "nome": "Apple Magic Keyboard",
+        "categoria": "computer",
+        "brand": "Apple",
+        "prezzo": 99,
+        "descrizione": "Tastiera wireless con design sottile e tasti retroilluminati."
+    },
+    {
+        "id": 117,
+        "nome": "Huawei FreeBuds 4",
+        "categoria": "smartwatch",
+        "brand": "Huawei",
+        "prezzo": 149,
+        "descrizione": "Auricolari true wireless con design ergonomico e audio di qualità."
+    },
+    {
+        "id": 118,
+        "nome": "Xiaomi Mi 11 Ultra",
+        "categoria": "smartphone",
+        "brand": "Xiaomi",
+        "prezzo": 799,
+        "descrizione": "Smartphone con fotocamera principale da 50MP e display AMOLED."
+    },
+    {
+        "id": 119,
+        "nome": "Apple iPad Air (5th generation)",
+        "categoria": "computer",
+        "brand": "Apple",
+        "prezzo": 599,
+        "descrizione": "Tablet potente con chip M1 e display Liquid Retina."
+    },
+    {
+        "id": 120,
+        "nome": "MSI Optix MAG272CQR",
+        "categoria": "computer",
+        "brand": "MSI",
+        "prezzo": 349,
+        "descrizione": "Monitor curvo 1440p con 165Hz e tecnologia Adaptive Sync."
+    },
+    {
+        "id": 121,
+        "nome": "Samsung Galaxy Z Fold 5",
+        "categoria": "smartphone",
+        "brand": "Samsung",
+        "prezzo": 1799,
+        "descrizione": "Smartphone pieghevole con display interno grande e multifunzione."
+    },
+    {
+        "id": 122,
+        "nome": "Apple iPhone 15 Pro",
+        "categoria": "smartphone",
+        "brand": "Apple",
+        "prezzo": 1099,
+        "descrizione": "Smartphone con design in titanio e prestazioni superiori."
+    },
+    {
+        "id": 123,
+        "nome": "Google Pixel 7",
+        "categoria": "smartphone",
+        "brand": "Google",
+        "prezzo": 599,
+        "descrizione": "Smartphone con fotocamera avanzata e display OLED."
+    },
+    {
+        "id": 124,
+        "nome": "Logitech G502 Hero",
+        "categoria": "computer",
+        "brand": "Logitech",
+        "prezzo": 89,
+        "descrizione": "Mouse da gaming con sensore HERO e tasti programmabili."
+    },
+    {
+        "id": 125,
+        "nome": "MSI GF65 Thin",
+        "categoria": "computer",
+        "brand": "MSI",
+        "prezzo": 999,
+        "descrizione": "Laptop gaming sottile con GPU RTX 3060 e display 144Hz."
+    },
+    {
+        "id": 126,
+        "nome": "Corsair Dark Core RGB Pro",
+        "categoria": "computer",
+        "brand": "Corsair",
+        "prezzo": 89,
+        "descrizione": "Mouse da gaming wireless con illuminazione RGB e sensore preciso."
+    },
+    {
+        "id": 127,
+        "nome": "Razer Viper Ultimate",
+        "categoria": "computer",
+        "brand": "Razer",
+        "prezzo": 129,
+        "descrizione": "Mouse da gaming wireless con sensore ottico e design leggero."
+    },
+    {
+        "id": 128,
+        "nome": "Dell XPS 13",
+        "categoria": "computer",
+        "brand": "Dell",
+        "prezzo": 1199,
+        "descrizione": "Laptop ultraportatile con display InfinityEdge e prestazioni eccellenti."
+    },
+    {
+        "id": 129,
+        "nome": "Acer Nitro 5",
+        "categoria": "computer",
+        "brand": "Acer",
+        "prezzo": 1099,
+        "descrizione": "Laptop gaming con display 144Hz e GPU GTX 1660 Ti."
+    },
+    {
+        "id": 130,
+        "nome": "Apple Watch Ultra",
+        "categoria": "smartwatch",
+        "brand": "Apple",
+        "prezzo": 799,
+        "descrizione": "Smartwatch robusto con GPS e display sempre attivo."
+    },
+    {
+        "id": 131,
+        "nome": "Sony Xperia 1 IV",
+        "categoria": "smartphone",
+        "brand": "Sony",
+        "prezzo": 1199,
+        "descrizione": "Smartphone con display 4K e fotocamera avanzata."
+    },
+    {
+        "id": 132,
+        "nome": "Asus ROG Strix Scar 15",
+        "categoria": "computer",
+        "brand": "Asus",
+        "prezzo": 1799,
+        "descrizione": "Laptop gaming con display 300Hz e GPU RTX 3070."
+    },
+    {
+        "id": 133,
+        "nome": "Apple iPhone 14 Pro",
+        "categoria": "smartphone",
+        "brand": "Apple",
+        "prezzo": 999,
+        "descrizione": "Smartphone con fotocamera avanzata e display ProMotion."
+    },
+    {
+        "id": 134,
+        "nome": "Huawei Watch GT 3",
+        "categoria": "smartwatch",
+        "brand": "Huawei",
+        "prezzo": 249,
+        "descrizione": "Orologio smart con monitoraggio della salute e lunga durata."
+    },
+    {
+        "id": 135,
+        "nome": "MSI MPG Z690 Carbon WiFi",
+        "categoria": "computer",
+        "brand": "MSI",
+        "prezzo": 299,
+        "descrizione": "Scheda madre con supporto PCIe 5.0 e WiFi 6E."
+    },
+    {
+        "id": 136,
+        "nome": "Corsair K95 RGB Platinum",
+        "categoria": "computer",
+        "brand": "Corsair",
+        "prezzo": 199,
+        "descrizione": "Tastiera meccanica con switch Cherry MX e retroilluminazione RGB."
+    },
+    {
+        "id": 137,
+        "nome": "Lenovo Legion Pro5 I9",
+        "categoria": "computer",
+        "brand": "Lenovo",
+        "prezzo": 2399,
+        "descrizione": "Fotocamera mirrorless full-frame con autofocus avanzato e video 8K."
+    },
+    {
+        "id": 138,
+        "nome": "Apple AirPods Pro (2nd generation)",
+        "categoria": "smartwatch",
+        "brand": "Apple",
+        "prezzo": 249,
+        "descrizione": "Auricolari con cancellazione attiva del rumore e audio adattivo."
+    },
+    {
+        "id": 139,
+        "nome": "Huawei MateBook X Pro",
+        "categoria": "computer",
+        "brand": "Huawei",
+        "prezzo": 1599,
+        "descrizione": "Laptop premium con display touchscreen 3K e processore i7."
+    },
+    {
+        "id": 140,
+        "nome": "Samsung Galaxy Buds2 Pro",
+        "categoria": "smartwatch",
+        "brand": "Samsung",
+        "prezzo": 229,
+        "descrizione": "Auricolari wireless con audio 24-bit e cancellazione attiva del rumore."
+    },
+    {
+        "id": 141,
+        "nome": "Asus ProArt PA32UCX",
+        "categoria": "computer",
+        "brand": "Asus",
+        "prezzo": 1599,
+        "descrizione": "Monitor 4K HDR con precisione del colore per professionisti."
+    },
+    {
+        "id": 142,
+        "nome": "Razer Kraken X",
+        "categoria": "computer",
+        "brand": "Razer",
+        "prezzo": 79,
+        "descrizione": "Cuffie gaming leggere con audio surround 7.1."
+    },
+    {
+        "id": 143,
+        "nome": "Apple iPad Pro 11",
+        "categoria": "computer",
+        "brand": "Apple",
+        "prezzo": 799,
+        "descrizione": "Tablet potente con chip M2 e display ProMotion."
+    },
+    {
+        "id": 144,
+        "nome": "Lenovo ThinkPad X1 Carbon",
+        "categoria": "computer",
+        "brand": "Lenovo",
+        "prezzo": 1399,
+        "descrizione": "Laptop business con display 4K e batteria lunga durata."
+    },
+    {
+        "id": 145,
+        "nome": "Dell Inspiron 15",
+        "categoria": "computer",
+        "brand": "Dell",
+        "prezzo": 799,
+        "descrizione": "Laptop versatile con display Full HD e buone prestazioni."
+    },
+    {
+        "id": 146,
+        "nome": "Samsung Galaxy Note 20 Ultra",
+        "categoria": "smartphone",
+        "brand": "Samsung",
+        "prezzo": 1199,
+        "descrizione": "Smartphone con S Pen e fotocamera principale da 108MP."
+    },
+    {
+        "id": 147,
+        "nome": "Google Nest Audio",
+        "categoria": "computer",
+        "brand": "Google",
+        "prezzo": 129,
+        "descrizione": "Altoparlante smart con qualità audio eccellente e assistente vocale."
+    },
+    {
+        "id": 148,
+        "nome": "Corsair HS70 Pro",
+        "categoria": "computer",
+        "brand": "Corsair",
+        "prezzo": 99,
+        "descrizione": "Cuffie wireless da gaming con audio surround e comfort elevato."
+    },
+    {
+        "id": 149,
+        "nome": "Razer Naga X",
+        "categoria": "computer",
+        "brand": "Razer",
+        "prezzo": 79,
+        "descrizione": "Mouse da gaming con 16 tasti programmabili e design ergonomico."
+    },
+    {
+        "id": 150,
+        "nome": "Apple Watch Series 8",
+        "categoria": "smartwatch",
+        "brand": "Apple",
+        "prezzo": 399,
+        "descrizione": "Smartwatch con sensori avanzati e monitoraggio della salute."
+    }
+]

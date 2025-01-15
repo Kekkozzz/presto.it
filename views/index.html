@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FAVICON -->
+    <link rel="shortcut icon" href="../media/img/favicon-presto2.png" type="image/x-icon">
+    <!-- TITOLO -->
+    <title>Presto.it</title>
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+    
+    <!-- CDN SLIDE SWIPER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    
+    <!-- CDN AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CDN CSS FONTAWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <!-- CDN CSS BS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="../resources/css/style.css">
+</head>
+
+<body class="lightMode">
+    <button class="darkModeTrigger px-3" id="darkModeTrigger">
+        <i class="fa-solid fa-moon "></i>
+    </button>
+    
+    <!-- LOADING SCREEN -->
+    <div class="vh-100 d-flex justify-content-center align-items-center" id="loadingScreen">
+        <span class="loader"></span>
+    </div>
+    <!-- FINE LOADING SCREEN -->
+    
+    <!-- CONTENUTO BODY -->
+    <div class="d-none" id="contenuto">
+        
+        <!-- MENU RESPONSIVE SMARTPHONE -->
+        <div
+        class="d-block w-100 d-md-none justify-content-md-end mt-4 mt-md-0 d-flex align-items-center justify-content-evenly bottom-nav-smart">
+        <div class="mx-3 d-flex justify-content-center align-items-center my-3" id="searchBtnSmartphoneNav">
+            <i class="fa-solid fa-magnifying-glass cerca-nav-smartphone"></i>
+        </div>
+        <div class="mx-3 d-flex justify-content-center align-items-center my-3">
+            <img src="../media/img/assist.svg" alt="tasto-assistenza">
+        </div>
+        <div class="mx-3 d-flex justify-content-center align-items-center my-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom"
+        aria-controls="offcanvasBottom">
+        <img src="../media/img/profilo.svg" alt="tasto-login">
+    </div>
+    <div class="mx-3 d-flex justify-content-center align-items-center my-3 position-relative carrello-nav" id="carrelloNav">
+        <img src="../media/img/cart.svg" alt="tasto-carrello">
+    </div>
+</div>
+<!-- FINE MENU RESPONSIVE SMARTPHONE -->
+
+<!-- MENU DESKTOP -->
+<div id="contenitore-navbar">
+    <div id="navbar-js">
+        <div class="container-fluid bg-warning">
+            <p class="text-center w-100 py-2"><strong><em>Lavori In Corso</em></strong></p>
+        </div>
+        <nav class="container-fluid coloreNav">
+            <div class="row navbar pt-4 mx-1 mx-md-5 bordo justify-content-between">
+                <div class="col-10 col-md-3 d-flex">
+                    <a href="./index.html" class="navbar-brand title fs-3">
+                        <img class="logo img-fluid" src="../media/img/logo-presto.it.png" alt="logo-presto-it">
+                    </a>
+                </div>
+                
+                <div class="col-2 d-block d-md-none">
+                    <button class="btn prova" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i
+                    class="fa-solid fa-bars"></i></button>
+                    
+                    <div class="offcanvas offcanvas-end burger-nav" tabindex="-1" id="offcanvasRight"
+                    aria-labelledby="offcanvasRightLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close " data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                    </div>
+                    
+                    <div class="offcanvas-body d-flex justify-content-center align-items-center">
+                        <div>
+                            <div class="py-3 text-center">
+                                <a href=""><img src="../media/img/pc.svg" alt="" class="me-1">Computer</a>
+                            </div>
+                            <div class="py-3 text-center">
+                                <a href=""><img src="../media/img/phone.svg" alt=""
+                                    class="me-1">Smartphone</a>
+                                </div>
+                                <div class="py-3 text-center">
+                                    <a href=""><img src="../media/img/watch.svg" alt=""
+                                        class="me-1">Smartwatch</a>
+                                    </div>
+                                    <div class="py-3 text-center">
+                                        <a href=""><img src="../media/img/PAD.svg" alt="" class="me-1">Console</a>
+                                    </div>
+                                    <div class="py-3 text-center">
+                                        <a href="../views/prodotti.html"><img src="../media/img/4bottoni.svg" alt=""
+                                            class="me-1">Vedi tutti</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <!-- NAVBAR -->
+                        <div class="col-8 col-md-4 mt-3 mt-md-0 d-flex justify-content-center icone-navbar">
+                            <form class="w-100 position-relative" role="search">
+                                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success btn-search-products position-absolute" type="submit">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </button>
+                            </form>
+                        </div>
+                        
+                        <div
+                        class="col-12 col-md-5 justify-content-md-end mt-4 mt-md-0 d-flex flex-column flex-md-row align-items-center icone-navbar">
+                        <div class="mx-3 d-flex justify-content-center align-items-center mt-3 mt-md-0">
+                            <img src="../media/img/assist.svg" alt="">
+                            <div>
+                                <h6 class="fw-bold">Supporto 24/7</h6>
+                                <p class="nav-icon-size font-numeri">+39 388 95 12 305</p>
+                            </div>
+                        </div>
+                        
+                        <div class="mx-3 d-flex justify-content-center align-items-center mt-3 mt-md-0">
+                            <div class="dropdown ">
+                                <button type="button" class="btn login-border" data-bs-toggle="dropdown"
+                                aria-expanded="false" data-bs-auto-close="outside">
+                                <div class="d-flex align-items-center">
+                                    
+                                    <img src="../media/img/profilo.svg" alt="">
+                                    <div class="text-start">
+                                        <h6 class="fw-bold">Login</h6>
+                                        <p class="nav-icon-size">o registrati</p>
+                                    </div>
+                                </div>
+                            </button>
+                            <form class="dropdown-menu dropdown-login p-4">
+                                <div class="mb-3  ">
+                                    <label for="exampleDropdownFormEmail2" class="form-label">Email</label>
+                                    <input type="email" class="form-control input-custom"
+                                    id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleDropdownFormPassword2"
+                                    class="form-label">Password</label>
+                                    <input type="password" class="form-control"
+                                    id="exampleDropdownFormPassword1" placeholder="Password">
+                                </div>
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input type="checkbox" class="form-check-input checker-custom"
+                                        id="dropdownCheck1">
+                                        <label class="form-check-label" for="dropdownCheck1">
+                                            Ricordami
+                                        </label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btn btn-accedi">Accedi</button>
+                            </form>
+                        </div>
+                    </div>
+                    
+                    <div class="mx-3 d-flex justify-content-center align-items-center mt-3 mt-md-0">
+                        <div class="position-relative carrello-nav" id="carrelloNav">
+                            <img src="../media/img/cart.svg" alt="carrello">
+                        </div>
+                        <div>
+                            <h6 class="fw-bold">Carrello</h6>
+                            <p class="nav-icon-size">Acquista ora</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- MENU LINK -->
+                <div class="row align-items-start">
+                    <div class="col-md-12 icone-navbar ps-1">
+                        <div class="btn-group mt-4">
+                            <button class="btn d-flex align-items-center btn-link-nav" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"><img src="../media/img/pc.svg"
+                            alt="" class="me-1"></i>Computer <i
+                            class="fas fa-chevron-down ms-2"></i></button>
+                            <ul class="dropdown-menu">
+                                <li class="ms-3">link</li>
+                                <li class="ms-3">link</li>
+                                <li class="ms-3">link</li>
+                            </ul>
+                        </div>
+                        <div class="btn-group mt-4 ms-4">
+                            <button class="btn d-flex align-items-center btn-link-nav" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"><img
+                            src="../media/img/phone.svg" alt="" class="me-1"></i>Smarphone <i
+                            class="fas fa-chevron-down ms-2"></i></button>
+                            <ul class="dropdown-menu">
+                                <li class="ms-3">link</li>
+                                <li class="ms-3">link</li>
+                                <li class="ms-3">link</li>
+                            </ul>
+                        </div>
+                        <div class="btn-group mt-4 ms-4">
+                            <button class="btn d-flex align-items-center btn-link-nav" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"><img
+                            src="../media/img/watch.svg" alt=""></i>Smartwatch <i
+                            class="fas fa-chevron-down ms-2"></i></button>
+                            <ul class="dropdown-menu">
+                                <li class="ms-3">link</li>
+                                <li class="ms-3">link</li>
+                                <li class="ms-3">link</li>
+                            </ul>
+                        </div>
+                        <div class="btn-group mt-4 ms-4">
+                            <button class="btn d-flex align-items-center btn-link-nav" type="button"
+                            data-bs-toggle="dropdown" aria-expanded="false"><img src="../media/img/PAD.svg"
+                            alt="" class="me-1"></i>Console <i
+                            class="fas fa-chevron-down ms-2"></i></button>
+                            <ul class="dropdown-menu">
+                                <li class="ms-3">link</li>
+                                <li class="ms-3">link</li>
+                                <li class="ms-3">link</li>
+                            </ul>
+                        </div>
+                        <div class="btn-group mt-4 ms-4">
+                            <button class="btn d-flex align-items-center btn-link-nav" type="button"
+                            aria-expanded="false"><a class="link-menu" href="../views/prodotti.html"><img
+                                src="../media/img/4bottoni.svg" alt="" class="me-1"></i> Vedi
+                                Tutti</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- search bar a comparsa smartphone -->
+                <div id="searchBarSmartphone" class=" mt-3 w-100 d-flex justify-content-center d-none">
+                    <form class="w-100 position-relative mx-3" role="search">
+                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success btn-search-products position-absolute" type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                </div>
+                
+            </nav>
+            
+        </div>
+    </div>
+    
+    <!-- TASTO CHE PORTA AL TOP DELLA PAGINA -->
+    <div class="topBtn position-fixed rounded-circle d-flex justify-content-center align-items-bottom">
+        <a href="#"><i class="fa-solid fa-sort-up iconaTopBtn"></i></a>
+    </div>
+    
+    <!-- FINE MENU DESKTOP -->
+    
+    <!-- INIZIO HEADER (COME VUOLE ANDREA GATANI) -->
+    <header class="d-flex justify-content-center align-content-center">
+        <div class="slide img-header pt-5">
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide contenitore-slide1">
+                        <div class="inner-slide">
+                            <h6 class="titolo-slide1 fs-4">Sezione</h6>
+                            <h2 class="titolo-slide1">Computer</h2>
+                            <p class="sottotitolo-slide1">Non perdere le nostre offerte</p>
+                            <a href="./prodotti.html" class="btn bottone-slide mt-4">Acquista Ora</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide contenitore-slide2">
+                        <div class="inner-slide">
+                            <h6 class="titolo-slide2 fs-4">Sezione</h6>
+                            <h2 class="titolo-slide2 ">Smartphone</h2>
+                            <p class="sottotitolo-slide2">Non perdere le nostre offerte</p>
+                            <a href="./prodotti.html" class="btn bottone-slide2 mt-4">Acquista Ora</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide contenitore-slide3">
+                        <div class="inner-slide">
+                            <h6 class="titolo-slide1 fs-4">Sezione</h6>
+                            <h2 class="titolo-slide1">Smartwatch</h2>
+                            <p class="sottotitolo-slide1">Non perdere le nostre offerte</p>
+                            <a href="./prodotti.html" class="btn bottone-slide mt-4">Acquista Ora</a>
+                            <!-- <button type="button" class="btn bottone-slide mt-4">Acquista ora</button> -->
+                        </div>
+                    </div>
+                    <div class="swiper-slide contenitore-slide4">
+                        <div class="inner-slide">
+                            <h6 class="titolo-slide2 fs-4">Sezione</h6>
+                            <h2 class="titolo-slide2">Console</h2>
+                            <p class="sottotitolo-slide2">Non perdere le nostre offerte</p>
+                            <a href="./prodotti.html" class="btn bottone-slide2 mt-4">Acquista Ora</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+    <main>
+        
+        <div class="container">
+            <h2>Ultimi Arrivi</h2>
+            <div class="row">
+                <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper"  id="wrapperUltimiArrivi">
+                        <!-- card create dinamicamente -->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container pt-5">
+            <div class="row">
+                <div class="col-12">
+                    <h2 class="fs-1 my-5 text-center">I numeri di <img class="logo-numeri pb-2"
+                        src="../media/img/logo-presto.it.png" alt=""></h2>
+                    </div>
+                    
+                    <!-- numeri incrementali -->
+                    
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-6 col-md-3">
+                                
+                                <div class="sottocard" data-aos="fade-up" data-aos-delay="100">
+                                    <i class="fa-solid fa-handshake icone-numeri"></i>
+                                    <p class="text-center numeri-card" id="firstNumber">0</p>
+                                    <p class="text-center fs-5"> Affiliati</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 d-flex align-items-baseline justify-content-center">
+                                <div class="sottocard" data-aos="fade-up" data-aos-delay="200">
+                                    <i class="fa-solid fa-box icone-numeri"></i>
+                                    <p class="text-center numeri-card" id="secondNumber">0</p>
+                                    <p class="text-center fs-5">Ordini effettuati</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 pt-5 pt-md-0 d-flex align-items-baseline justify-content-center">
+                                <div class="sottocard" data-aos="fade-up" data-aos-delay="300">
+                                    <i class="fa-solid fa-star icone-numeri"></i>
+                                    <p class="text-center numeri-card" id="thirdNumber">0</p>
+                                    <p class="text-center fs-5">Recensioni</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-3 pt-5 pt-md-0 d-flex align-items-baseline justify-content-center">
+                                <div class="sottocard" data-aos="fade-up" data-aos-delay="400">
+                                    <i class="fa-solid fa-location-dot icone-numeri"></i>
+                                    <p class="text-center numeri-card" id="fourthNumber">0</p>
+                                    <p class="text-center fs-5">Punti vendita</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+            <div class="container-fluid p-2 mt-5 bg-containter-main">
+                <div class="container">
+                    <div class="row p-5">
+                        
+                        <div class="col-12 col-md-4 d-flex pt-5 pt-md-0 align-items-center flex-column">
+                            <img class="img-divcontainer img-fluid mb-3"
+                            src="../media/images/macbook_bg_transparent.png" alt="">
+                            <div>
+                                <h5 class="text-center">Acquista Online</h5>
+                                <p class="text-center fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                    Vel inventore, modi atque nesciunt at voluptatibus impedit.</p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-md-4 d-flex pt-5 pt-md-0 align-items-center flex-column">
+                                <img class="img-divcontainer img-fluid mb-3" src="../media/images/iphone_bg_transparent.png"
+                                alt="">
+                                <div>
+                                    <h5 class="text-center">Acquista Online</h5>
+                                    <p class="text-center fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                        Vel inventore, modi atque nesciunt at voluptatibus impedit.</p>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-4 d-flex pt-5 pt-md-0 align-items-center flex-column">
+                                    <img class="img-divcontainer img-fluid mb-3" src="../media/images/PS5_bg_transparent.png"
+                                    alt="">
+                                    <div>
+                                        <h5 class="text-center">Acquista Online</h5>
+                                        <p class="text-center fs-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                                            Vel inventore, modi atque nesciunt at voluptatibus impedit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </main>
+                    <footer class="container">
+                        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+                            <p class="col-md-4 mb-0 text-body-secondary mt-4">© 2024 Fattori - Gatani - Romito <br><span class="zain"> Zain so che stai guardando </span></p>
+                            <div class="col-md-4 d-flex align-items-center justify-content-center">
+                                <img class="w-25" src="../media/img/logo-presto.it.png" alt="">
+                            </div>
+                            <ul class="nav col-md-4 justify-content-end">
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Privacy</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Cookies</a></li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="fa-brands fa-facebook fs-5"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="fa-brands fa-instagram fs-5"></i></a></li>
+                                <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary"><i class="fa-brands fa-linkedin fs-5"></i></a></li>
+                            </ul>
+                        </div>
+                    </footer>
+                    
+                    
+                <!-- FINE CONTENUTO BODY -->
+                
+                
+                <!-- OFFCANVAS BOTTONI NAVBAR SMARTPHONE -->
+                
+                <!-- offcanvas login -->
+                <div class="offcanvas offcanvas-bottom offcanvas-smartphoneNav" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+                    <div class="offcanvas-header">
+                        
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body ">
+                        <form class="pb-4 px-4">
+                            <div class="mb-3  ">
+                                <label for="exampleDropdownFormEmail2" class="form-label">Email</label>
+                                <input type="email" class="form-control"
+                                id="exampleDropdownFormEmail2" placeholder="email@example.com">
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleDropdownFormPassword2"
+                                class="form-label">Password</label>
+                                <input type="password" class="form-control"
+                                id="exampleDropdownFormPassword2" placeholder="Password">
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-check">
+                                    <input type="checkbox" class="form-check-input checker-custom"
+                                    id="dropdownCheck2">
+                                    <label class="form-check-label" for="dropdownCheck2">
+                                        Ricordami
+                                    </label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-accedi">Accedi</button>
+                        </form>
+                    </div>
+                </div>
+
+                
+                <!-- CDN SWIPER  -->
+                <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+                
+                <!-- JS FONTAWESOME -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/js/all.min.js"
+                integrity="sha512-6sSYJqDreZRZGkJ3b+YfdhB3MzmuP9R7X1QZ6g5aIXhRvR1Y/N/P47jmnkENm7YL3oqsmI6AK+V6AD99uWDnIw=="
+                crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+                
+                <!-- CDN AOS -->
+                <script src="https://unpkg.com/aos@2.3.1/dist/aos.js">
+                    // INIZIALIZZAZIONE AOS PER EFFETTI FIKI DEI NUMERI INCREMENTALI
+                    AOS.init();
+                </script>
+
+                <!-- JS BS -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+                crossorigin="anonymous"></script>
+                
+                <!-- CAZZ MODE -->
+                <script src="../resources/js/darkMode.js"></script>
+                <!-- MY JS -->
+                <script src="../resources/js/main.js"></script>
+                
+            </body>
+            
+            </html>
